@@ -1,0 +1,27 @@
+ul{
+    width: 30vw;;
+    height: 10vh;
+    border: 2px solid red;
+    display: flex;
+    overflow: hidden;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+}
+li{
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: auto;
+    
+}
+ul:hover{
+    box-shadow: 0px 0px 10px white;
+}
+@media (min-width:1250px){
+
+    li{
+        font-size: 1vw;
+    }
+}

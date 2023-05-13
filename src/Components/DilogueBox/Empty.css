@@ -1,0 +1,50 @@
+.container{
+    width: 30vw;;
+    height: 13vh;
+    border: 2px solid red;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin: auto;
+    list-style: none;
+    padding: 0;
+    background-color: aliceblue;
+    color: black;
+    font-size: 2vw;
+    position: relative;
+
+}
+.header{
+    width: 30vw;
+    height: 3vw;
+    background-color:purple;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  .btn{
+    display: flex;
+    background-color: red;
+    margin: auto;
+    padding: 2%;
+    justify-content: flex-end;
+    
+  }
+@media  (min-width:1250px){
+   .container{
+    font-size: 1vw;
+   }
+   .header{
+    height:1.7vw ;
+   }
+
+}
+    
+
+  
+  
