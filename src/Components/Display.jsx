@@ -3,7 +3,7 @@ const Display=(props)=>{
  return (
 <>
 <ul>
-<li>Username: {props.data.username}  Age: {props.data.age}</li>
+<li>Username: {props.data.username}  location:{props.data.loaction}  Age: {props.data.age}</li>
 </ul>
 </>
  );
